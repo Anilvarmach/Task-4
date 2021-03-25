@@ -1,0 +1,98 @@
+<!--Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .main-div{
+            border: 2px solid #bb8027;
+            padding: 20px;
+            width: 450px;
+            margin: auto;
+        }
+        h1{
+            font-size: 20px;
+            background-color: #ff0000;
+            border: 0px solid red;
+            text-align: center;
+        }
+        .input-style{
+            border-top: none;
+            border-left: none;
+            border-right:none;
+            outline: none;
+        }
+        .input-add{
+            width: 200%;
+        }
+        .inp-dd{
+            margin-right: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <h1>Yes! I want to subscribe to <em>Mag-O-Zin</em> </h1>
+        <form action="#">
+            <table>
+                <tr>
+                    <td><input type="text" class="input-style" name="name" id="First_Name"> <br>
+                        <label for="First_Name">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" class="input-style" name="name" id="Last_Name"> <br>
+                        <label for="Last_Name">Last Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="input-style input-add" name="add" id="add"><br>
+                        <label for="add">Address</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="input-style inp-dd" name="city" id="city"> <br>
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        <input type="text" class="input-style inp-dd" name="state" id="state"> <br>
+                        <label for="state">State</label>
+                    </td>
+                    <td>
+                        <input type="number" class="input-style inp-dd" name="zip" id="zip"> <br>
+                        <label for="zip">Zip</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="sub">Subscribe for:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="sub" id="sub">1 year($19.35)                         
+                    </td>
+                    <td>
+                        <input type="checkbox" name="sub" id="sub">2 year($35.00)                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="more">Send me more information about:</label><br>
+                        <input type="checkbox" name="sub" id="more">Computer Zone <br>
+                        <input type="checkbox" name="sub" id="more">Fishing Zone  <br>                     
+                        <input type="checkbox" name="sub" id="more">Cat_O_Zone
+                    </td>
+                </tr>
+            </table>
+            
+        </form>
+
+
+    </div>
+    
+
+    
+</body>
+</html>

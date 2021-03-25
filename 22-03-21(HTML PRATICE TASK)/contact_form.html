@@ -1,0 +1,48 @@
+<!--3.Design a contact us form with all fields as required. -->
+<!-- 6. Adding of two radio buttons -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td><label for="name">Enter your Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Name" required> <br></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Enter your Mobile Number:</label></td>
+                <td> <input type="number" name="mobile" id="mobile" required><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter your Email:</label></td>
+                <td> <input type="email" name="email" id="email" placeholder="abc@gmail.com" required> <br></td>
+            </tr>
+            <!--Adding of Two radio Buttons -->
+            <tr>
+                <td><label>Select Employee Type:</label></td>
+                <td><input type="radio" name="emp_type" value="Salaried">Salaried &nbsp;&nbsp;
+                    <input type="radio" name="emp_type" value="own">Own Business
+                </td>
+            </tr>
+            <tr>
+                <td><label for="message">Type your Message:</label> </td>
+                <td><textarea name="message" id="message" cols="20" rows="5"></textarea> <br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
